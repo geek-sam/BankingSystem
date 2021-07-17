@@ -1,0 +1,79 @@
+.container1{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    background-color: #32383e;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 38px;
+}
+.heading:hover{
+    color: rgb(217, 255, 0);
+    background: rgb(8, 34, 83);
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+    margin-top: 30px;
+}
+th{
+    color: floralwhite;
+    background-color: rgb(38, 58, 148);
+}
+td{
+    color: rgb(0, 0, 0);
+}
+table{
+    letter-spacing: 1px;
+    width: 100%;
+    background: rgb(48, 86, 192);
+}
+.banner{
+    background-color: rgb(16, 89, 92);
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.col-3 label{
+    color: rgb(220, 251, 255);
+    font-size: 1.5rem;
+}
+.form-control{
+    font-weight: 600;
+    font-size: medium;
+    width: 500px;
+    margin: 5px auto;
+    padding: 8px;
+    border: 0;
+    border-radius: 3px;
+}
+.btn2{
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background: rgb(4, 240, 248);
+    font-weight: 600;
+    font-size: medium;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.btn2:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(5, 188, 243);
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 0;
+}
