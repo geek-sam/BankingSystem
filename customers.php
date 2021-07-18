@@ -30,10 +30,10 @@
         </div>
     </div>
     
-    <div class="content">
+    <div class="content" style="overflow-x:auto;">
         <h2 class="heading">Customers</h2>
         <br>
-            <div class="customer-table" style="overflow-x:auto;">
+            <div class="customer-table">
                 <table class="center">
                     <thead>
                         <tr>
